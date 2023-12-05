@@ -15,6 +15,7 @@ puts "I could have code like this." # and the comment after is ignored
 puts "This will run."
 
 #exercise 3 
+
 puts "I will now count my chickens:"
 
 puts "Hens #{25 + 30 / 6}"
