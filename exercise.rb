@@ -29,23 +29,18 @@
 #   end
 # end
 # puts A::B::C::D::CONST3
+class Mathema
+  attr_accessor :multi
 
-module Perimeter
-  def 
-   x=(2*l+b)
+  def initialize(multi)
+    @multi = multi
+  end
+
+  def self.xyz(a)
+    obj = Mathema.new(a)
+    puts obj.multi * a
   end
 end
 
-class Square
-include Perimeter
-def initialize(l)
-  
-end
-end
+Mathema.xyz(2)
 
-class Rectangle
-include Perimeter
-def initialize(l,b)
-  
-end
-end
