@@ -27,7 +27,7 @@ puts "A smaller number is #{smaller}."
 first, second, third = ARGV
 
 puts "Your first variable is: #{first}"
-first= $stdin.gets.chomp
+first = $stdin.gets.chomp
 puts "Your second variable is: #{second}"
 puts "Your third variable is: #{third}"
 
@@ -55,7 +55,7 @@ You live in #{lives}.  Not sure where that is.
 And you have a #{computer} computer.  Nice.
 "''
 
-#exercise 15
+# exercise 15
 
 filename = ARGV.first
 
@@ -64,7 +64,7 @@ txt = open(filename)
 puts "Here's your file #{filename}:"
 print txt.read
 
-print "Type the filename again: "
+print 'Type the filename again: '
 file_again = $stdin.gets.chomp
 
 txt_again = open(file_again)
